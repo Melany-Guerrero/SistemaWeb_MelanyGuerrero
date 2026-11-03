@@ -1,0 +1,173 @@
+
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+    background: white;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* ENCABEZADO */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #243b64;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #777;
+    font-size: 14px;
+}
+
+/* FORMULARIO */
+.campo {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #356ac3;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #2856a5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1c407f;
+}
+
+/* PAGINA DE ESTUDIANTES */
+.tabla-contenedor {
+    max-width: 1250px;
+    width: 100%;
+    padding: 35px;
+}
+
+.acciones {
+    margin: 20px 0;
+}
+
+.boton-enlace {
+    display: inline-block;
+    background: #2856a5;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-enlace:hover {
+    background: #1c407f;
+}
+
+/* TABLA RESPONSIVA */
+.tabla-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    min-width: 950px;
+    border-collapse: collapse;
+    background: white;
+}
+
+thead {
+    background: #2856a5;
+    color: white;
+}
+
+th {
+    padding: 15px 12px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+td {
+    padding: 14px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 13px;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background: #f5f8fc;
+}
+
+tbody tr:hover {
+    background: #eaf1fc;
+}
+
+.mensaje-vacio {
+    text-align: center;
+    padding: 25px;
+    color: #777;
+}
+
+/* DISPOSITIVOS MOVILES */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    .contenedor {
+        padding: 22px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
+}
