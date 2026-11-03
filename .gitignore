@@ -1,0 +1,31 @@
+
+# Archivos de configuracion local
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos de respaldo
+*.bak
+*.old
+*.backup
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuraciones de editores
+.vscode/
+.idea/
+
+# Dependencias
+/vendor/
+node_modules/
+
+# Archivos temporales de XAMPP
+*.pid
